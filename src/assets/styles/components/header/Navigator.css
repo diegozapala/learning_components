@@ -1,0 +1,17 @@
+.Navigator {
+  margin-top: 2vw;
+  margin-left: 10vw;
+  width: 22vw;
+  height: 4vw;
+  background-color: #0ff;
+}
+
+.Navigator:hover {
+  background-color: #afffff;
+}
+
+.NavigatorSubtitle {
+  top: 3vw;
+  left: 1vw;
+  position: absolute;
+}

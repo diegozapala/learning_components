@@ -1,0 +1,14 @@
+.Banner {
+  height: 20vw;
+  background-color: #f0f;
+}
+
+.Banner:hover {
+  background-color: #ff90ff;
+}
+
+.BannerSubtitle {
+  top: 16vw;
+  left: 76vw;
+  position: absolute;
+}

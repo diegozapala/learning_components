@@ -1,0 +1,60 @@
+.Subtitle {
+  width: 23vw;
+  height: 14vw;
+  background-color: #fff;
+  font-size: 1vw;
+}
+
+.Subtitle .Content {
+  margin: auto;
+  width: 90%;
+}
+
+.Subtitle .Content .Line {
+  display: flex;
+  border-bottom: 1px solid #000;
+}
+
+.Subtitle .Content .LastLine {
+  border-bottom: 0px solid #000;
+}
+
+.Subtitle .Content .Title {
+  margin-top: 1vw;
+  width: 17%;
+  font-size: .70vw;
+}
+
+.Subtitle .Content .Response {
+  margin-top: 1vw;
+  width: 75%;
+  height: 1.3vw;
+  float: right;
+  font-size: .80vw;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.red {
+  background-color: #f00;
+}
+
+.green {
+  background-color: #0f0;
+}
+
+.blue {
+  background-color: #00f;
+}
+
+.pink {
+  background-color: #f0f;
+}
+
+.yellow {
+  background-color: #ff0;
+}
+
+.baby_blue {
+  background-color: #0ff;
+}

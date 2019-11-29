@@ -1,0 +1,16 @@
+.Home {
+  margin: auto;
+  width: 50%;
+  height: 46vw;
+  background-color: #0f0;
+}
+
+.Home:hover {
+  background-color: #8cff8c;
+}
+
+.HomeSubtitle {
+  top: 33vw;
+  left: 76vw;
+  position: absolute;
+}

@@ -1,0 +1,15 @@
+.Header {
+  height: 7vw;
+  background-color: #00f;
+  display: flex;
+}
+
+.Header:hover {
+  background-color: #7d7dff;
+}
+
+.HeaderSubtitle {
+  top: 1vw;
+  left: 76vw;
+  position: absolute;
+}

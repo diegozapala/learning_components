@@ -1,0 +1,16 @@
+.Logo {
+  margin-top: 2vw;
+  width: 10vw;
+  height: 4vw;
+  background-color: #ff0;
+}
+
+.Logo:hover {
+  background-color: #ffff9d;
+}
+
+.LogoSubtitle {
+  top: 3vw;
+  left: 1vw;
+  position: absolute;
+}

@@ -1,26 +1,34 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Home from './pages/Home'
+import Subtitle from './components/subtitle'
+
+class App extends React.Component {
+  constructor() {
+    super();
+    this.state = {showSubtitle: false};
+  }
+
+  showSubtitle = () => {
+    this.setState({showSubtitle: true});
+  };
+  hideSubtitle = () => {
+    this.setState({showSubtitle: false});
+  };
+
+  render() {
+    return (
+      <div className="App" onMouseEnter={this.showSubtitle} onMouseLeave={this.hideSubtitle}>
+        App
+        <Home />
+
+        <div className="AppSubtitle">
+          { this.state.showSubtitle && <Subtitle color={"red"} arquive={"App.js"} type={"-"} css={"./App.css"} description={"Eu sou o App.js minha função é incorporar as pages e components"} />}
+        </div>
+      </div>
+    )
+  }
 }
 
 export default App;
